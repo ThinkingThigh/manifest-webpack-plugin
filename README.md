@@ -1,4 +1,4 @@
-# manifest-webpack-plugin
+# html5-manifest-webpack-plugin
 
 A Webpack plugin for generating a Html5 Manifest Appcache file.
 
@@ -7,7 +7,7 @@ A Webpack plugin for generating a Html5 Manifest Appcache file.
 Using npm:
 
 ```console
-npm install manifest-webpack-plugin --save-dev
+npm install html5-manifest-webpack-plugin --save-dev
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install manifest-webpack-plugin --save-dev
 Make your `webpack.config.js` file like:
 
 ```js
-const ManifestWebpackPlugin = require('manifest-webpack-plugin');
+const ManifestWebpackPlugin = require('html5-manifest-webpack-plugin');
 const options = {
     // ...
  };

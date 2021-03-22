@@ -1,5 +1,5 @@
 {
-  "name": "manifest-webpack-plugin",
+  "name": "html5-manifest-webpack-plugin",
   "version": "1.0.0",
   "description": "webpack plugin for generating html5 manifest file.",
   "main": "index.js",
