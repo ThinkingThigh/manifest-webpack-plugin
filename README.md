@@ -1,6 +1,6 @@
 # html5-manifest-webpack-plugin
 
-A Webpack plugin for generating a Html5 Manifest Appcache file.
+A webpack plugin for generating a Html5 Manifest Appcache file.
 
 ## Install
 
@@ -21,7 +21,6 @@ const options = {
  };
 
 module.exports = {
-	// an example entry definition
 	entry: ['app.js'],
   ...
   plugins: [
