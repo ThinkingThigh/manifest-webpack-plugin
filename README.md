@@ -21,10 +21,26 @@ const options = {
  };
 
 module.exports = {
-	entry: ['app.js'],
   ...
   plugins: [
     new ManifestWebpackPlugin(options)
   ]
+  ...
+};
+```
+
+When using webpack chain you may make your `webpack.config.js` file like this
+
+```js
+...
+const ManifestWebpackPlugin = require("html5-manifest-webpack-plugin");
+module.exports = {
+
+...
+  configureWebpack: config => {
+  ...
+    config.plugins.push(new ManifestWebpackPlugin());
+  },
+  ...
 };
 ```
